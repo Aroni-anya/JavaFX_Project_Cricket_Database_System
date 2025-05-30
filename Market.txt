@@ -1,0 +1,3 @@
+Sam Curran,England,26,1.75,Punjab Kings,Allrounder,58,20000000
+Tim David,Australia,28,1.96,Mumbai Indians,Allrounder,21,15000000
+Aiden Markram,South Africa,30,1.83,Sunrisers Hyderabad,Allrounder,16,16000000

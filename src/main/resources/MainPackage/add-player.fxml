@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.AddPlayerController">
+    <children>
+      <ImageView fitHeight="711.0" fitWidth="1113.0" layoutX="44.0" layoutY="-48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image1.jpg" />
+         </image>
+      </ImageView>
+        <TextField fx:id="namefield" layoutX="137.0" layoutY="195.0" promptText="Enter Name">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="countryfield" layoutX="137.0" layoutY="261.0" promptText="Enter Country">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="agefield" layoutX="137.0" layoutY="319.0" promptText="Enter Age">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="heightfield" layoutX="137.0" layoutY="390.0" promptText="Enter Height">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="clubfield" layoutX="441.0" layoutY="195.0" promptText="Enter Club">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="positionfield" layoutX="441.0" layoutY="261.0" promptText="Enter Position">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="jersyfield" layoutX="441.0" layoutY="319.0" promptText="Enter Jersy Number">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <TextField fx:id="salfield" layoutX="441.0" layoutY="390.0" promptText="Enter Salary">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+        <Button fx:id="submitButton" layoutX="323.0" layoutY="552.0" mnemonicParsing="false" onAction="#OnSubmitClick" text="Submit">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+        <Button fx:id="backButton" layoutX="537.0" layoutY="552.0" mnemonicParsing="false" onAction="#OnBackClick" text="Go Back To Main Menu">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <Label layoutX="197.0" layoutY="52.0" text="Add New Player" textFill="#c8e4e0">
+         <font>
+            <Font name="Algerian" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="199.0" text="Name" textFill="#cfe9f2">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="264.0" text="Country" textFill="#c2eaff">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="323.0" text="Age" textFill="#c2e3ef">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="393.0" text="height" textFill="#beeeff">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="199.0" text="club">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endY="0.8484848575158552" startY="0.43939391771952313">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4691999852657318" green="0.8507018089294434" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="355.0" layoutY="267.0" text="position" textFill="#b9ecff">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="325.0" text="Number">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.253787849888657" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4691999852657318" green="0.8507018089294434" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="358.0" layoutY="396.0" text="salary" textFill="#b0e7ea">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

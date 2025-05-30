@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.CountrywiseCountController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="725.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image1.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="resultarea" layoutX="43.0" layoutY="151.0" prefHeight="370.0" prefWidth="714.0" style="-fx-background-image: image1.jpg;">
+         <font>
+            <Font name="Algerian" size="25.0" />
+         </font></TextArea>
+      <Button layoutX="557.0" layoutY="541.0" mnemonicParsing="false" onAction="#OnBackToSearchClick" text="Go Back To Search">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <Label layoutX="154.0" layoutY="53.0" text="Country Wise Player Count" textFill="#b0d9d9">
+         <font>
+            <Font name="Algerian" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

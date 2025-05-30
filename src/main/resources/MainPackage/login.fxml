@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <children>
+      <ImageView fitHeight="676.0" fitWidth="668.0" layoutX="-16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../wp1.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernamefield" layoutX="584.0" layoutY="176.0" prefHeight="63.0" prefWidth="182.0" promptText="Enter Username">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="650.0" layoutY="378.0" mnemonicParsing="false" onAction="#OnLoginClick" style="-fx-background-color: White;" text="Log In">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="652.0" layoutY="422.0" mnemonicParsing="false" onAction="#OnResetClick" style="-fx-background-color: white;" text="Reset">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passfield" layoutX="584.0" layoutY="268.0" prefHeight="63.0" prefWidth="182.0" promptText="Enter Password">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="199.0" layoutY="25.0" prefHeight="63.0" prefWidth="559.0" text="Log in as an Owner-" textFill="#efeaea">
+         <font>
+            <Font name="Algerian" size="42.0" />
+         </font>
+      </Label>
+      <Button layoutX="614.0" layoutY="524.0" mnemonicParsing="false" onAction="#OnBackToMainClick" opacity="0.9" prefHeight="40.0" prefWidth="151.0" style="-fx-background-color: white;" text="Go Back to Main Menu">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

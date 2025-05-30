@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.SearchSalaryController">
+   <children>
+      <ImageView fitHeight="675.0" fitWidth="596.0" layoutX="190.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image1.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="upfield" layoutX="74.0" layoutY="162.0" prefHeight="34.0" prefWidth="210.0" promptText="Enter Upper Range">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="lowfield" layoutX="74.0" layoutY="217.0" prefHeight="34.0" prefWidth="201.0" promptText="Enter Lower Range">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+      <Button layoutX="328.0" layoutY="218.0" mnemonicParsing="false" onAction="#OnSalSearchClick" style="-fx-background-color: #D3D3D3; -fx-border-color: grey; -fx-background-radius: 10; -fx-border-radius: 10;" text="Search">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <TextArea fx:id="resultarea" layoutX="30.0" layoutY="264.0" prefHeight="258.0" prefWidth="574.0">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></TextArea>
+      <Button layoutX="587.0" layoutY="540.0" mnemonicParsing="false" onAction="#OnBackToSearchClick" style="-fx-border-color: grey; -fx-background-radius: 10; -fx-border-radius: 10;" text="Go Back To Search">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <Label layoutX="262.0" layoutY="37.0" text="Search players By Salary" textFill="#9cd7d6">
+         <font>
+            <Font name="Algerian" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

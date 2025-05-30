@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.SearchClubCountryController">
+   <children>
+      <ImageView fitHeight="608.0" fitWidth="600.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image1.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="clubfield" layoutX="42.0" layoutY="146.0" prefHeight="34.0" prefWidth="293.0" promptText="Enter Club Name">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="countryfield" layoutX="41.0" layoutY="212.0" prefHeight="34.0" prefWidth="294.0" promptText="Enter Country Name">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></TextField>
+      <Button layoutX="378.0" layoutY="246.0" mnemonicParsing="false" onAction="#OnClubSearchClick" style="-fx-background-color: #D3D3D3; -fx-border-color: grey; -fx-background-radius: 10; -fx-border-radius: 10;" text="Search">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <TextArea fx:id="resultarea" layoutX="42.0" layoutY="287.0" prefHeight="243.0" prefWidth="552.0">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font></TextArea>
+      <Button layoutX="581.0" layoutY="540.0" mnemonicParsing="false" onAction="#OnBackToSearchClick" style="-fx-background-color: #D3D3D3; -fx-border-color: grey; -fx-background-radius: 10; -fx-border-radius: 10;" text="Go back To Search">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font></Button>
+      <Label layoutX="114.0" layoutY="43.0" text="Search Player By Club And Country" textFill="#93c1c4">
+         <font>
+            <Font name="Algerian" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
